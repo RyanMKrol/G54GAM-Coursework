@@ -36,14 +36,22 @@
     }
   }
 
+  echo $dirSize . "\n";
+
   $numCols = ceil(sqrt($dirSize));
   $numRows = ceil(sqrt($dirSize));
+
+  echo $numCols . "\n";
+  echo $numRows . "\n";
 
   $sheetWidth = $numCols * $width;
   $sheetHeight = $numRows * $height;
 
+  echo $sheetWidth . "\n";
+  echo $sheetHeight . "\n";
+
   // base sprite sheet that will contain all of the images
-  $tmp = imagecreate($sheetWidth, $sheetWidth);
+  $tmp = imagecreate($sheetWidth, $sheetHeight);
 
   $counter = 0;
 
