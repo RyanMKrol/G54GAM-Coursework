@@ -1,0 +1,1 @@
+../../../G54GAM_cw2/G54GAM_cw2.uproject  /Game/Levels/Intro/Intro_Level -Messaging -SessionId=C095C5D63A4E50F758613C9B64B21CFF -SessionOwner="ryankrol" -SessionName="Launch On Device"
